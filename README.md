@@ -1,25 +1,34 @@
+# Buscador de Operadoras ANS - Vue 3
+
+Aplicação frontend desenvolvida em **Vue.js 3** com **Vite**, consumindo uma API FastAPI que retorna dados das operadoras de saúde cadastradas na ANS (Agência Nacional de Saúde Suplementar).
 
 ---
 
-### 🌐 Frontend (Vue.js) `README.md`
-
-```markdown
-# Buscador de Operadoras ANS - Vue 3
-
-Aplicação frontend desenvolvida com Vue.js 3 para consumo da API ANS.
-
 ## Funcionalidades
-- Busca textual por operadoras da ANS
-- Interface responsiva com layout moderno
-- Destaque de resultados com ícones e estilos visuais
-- Comunicação com a API FastAPI via Axios
 
-## Como rodar
+- Busca textual por razão social da operadora
+- Interface responsiva e moderna
+- Comunicação com backend via Axios
+- Separação de responsabilidades em componentes reutilizáveis
 
-1. Instale as dependências:
+---
+
+## ▶️ Como rodar o projeto localmente
+
+### 1. Pré-requisitos
+
+Certifique-se de ter instalado:
+
+- **Node.js** v16 ou superior
+- **npm** v8 ou superior
+- Backend rodando em `http://localhost:8000` com a rota `/operadoras/buscar`
+
+### 2. Siga os passos para executar
+- A aplicação será iniciada no endereço: `http://localhost:5173`
+
 ```bash
+git clone https://github.com/seu-usuario/vue-operadoras.git
+cd vue-operadoras
 npm install
-
-2. Rode o projeto:
-```bash
 npm run dev
+
