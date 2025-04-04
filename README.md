@@ -1,5 +1,25 @@
-# Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+---
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+### 🌐 Frontend (Vue.js) `README.md`
+
+```markdown
+# Buscador de Operadoras ANS - Vue 3
+
+Aplicação frontend desenvolvida com Vue.js 3 para consumo da API ANS.
+
+## Funcionalidades
+- Busca textual por operadoras da ANS
+- Interface responsiva com layout moderno
+- Destaque de resultados com ícones e estilos visuais
+- Comunicação com a API FastAPI via Axios
+
+## Como rodar
+
+1. Instale as dependências:
+```bash
+npm install
+
+2. Rode o projeto:
+```bash
+npm run dev
