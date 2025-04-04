@@ -1,0 +1,55 @@
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .card-container {
+    width: 100%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(14px);
+    border-radius: 18px;
+    padding: 2.5rem;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    color: #e2e8f0;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #f8fafc;
+    margin-bottom: 2rem;
+  }
+  
+  .loading {
+    text-align: center;
+    color: #67e8f9;
+    font-weight: bold;
+  }
+  
+  .results h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #facc15;
+    margin-bottom: 1.2rem;
+  }
+  
+  .results ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .not-found {
+    text-align: center;
+    margin-top: 1rem;
+    color: #f87171;
+    font-weight: 600;
+  }
+  
